@@ -1,4 +1,4 @@
-# 创建数据库，并创建权限用户
+# 创建数据库，并创建权限和用户
 # CREATE DATABASE 'ssm' CHARACTER SET utf8;
 CREATE DATABASE ssm CHARACTER SET utf8 COLLATE utf8_general_ci;
 CREATE USER 'ssm'@'%' IDENTIFIED BY 'ssm';
